@@ -22,6 +22,6 @@ class Author
   end
 
   def post_count
-    @@post_count.uniq.count
+    @@post_count.count
   end
 end
