@@ -22,6 +22,6 @@ class Author
   end
 
   def post_count
-    @posts.uniq.length
+    @posts.uniq.count
   end
 end
