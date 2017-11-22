@@ -6,6 +6,10 @@ class Post
   end
 
   def author_name
-    self.artist.name
+    if defined? @author
+      self.author.name
+    else
+      nil
+    end
   end
 end
