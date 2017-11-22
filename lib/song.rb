@@ -1,6 +1,3 @@
-class Artist
-
-
-  def add_song_by_name(name)
-  end
+class Song
+  attr_accessor :artist
 end
