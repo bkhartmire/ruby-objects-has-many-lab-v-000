@@ -21,7 +21,7 @@ class Author
     @@post_count
   end
 
-  def post_count
-    @@post_count.count.to_i
+  def self.post_count
+    @@post_count.count
   end
 end
