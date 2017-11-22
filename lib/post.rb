@@ -6,8 +6,6 @@ class Post
   end
 
   def author_name
-    @author = author
-    @author_name = author.name
-    @author_name
+    self.artist.name
   end
 end
